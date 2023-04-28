@@ -1,0 +1,151 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    text-indent: 125px;
+    background: #1f2937;
+}
+
+
+a {
+/* this removes the line under the links */
+    text-decoration: none;
+    color: #f9faf8;  
+}
+
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* buttons need to be moved over but any changes makes the button stretched */
+button {
+    padding-left: 0em; /*stretches the button in a weird way, need to fix */
+    background: #3882f6;
+    color: #f9faf8;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06); /*don't like the button shadow color */
+    border-radius: 4px;
+}
+
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: #f9faf8;
+    padding-right: 5em;
+}
+
+
+.header {
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.topbar {
+    background: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    
+    
+   
+
+}
+
+.topcontent {
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+
+.information {
+  background-color: #f9faf8;
+  color: #1f2937;
+
+
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+
+.banner {
+    background-color: white;
+    /*need text in a blue box */
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 52px;
+    background: #1f2937;
+    color: #f9faf8;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
