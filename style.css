@@ -2,8 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
-    text-indent: 125px;
-    background: #1f2937;
+    
 }
 
 
@@ -19,7 +18,7 @@ ul {
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -28,7 +27,7 @@ ul {
     background: #3882f6;
     color: #f9faf8;
     box-shadow: 2px 4px 16px #0b0da3da; /*don't like the button shadow color */
-    border-radius: 4px;
+    border-radius: 2px;
     max-width: 64px;
     max-height: 48px;
 }
@@ -40,6 +39,7 @@ ul {
     align-items: center;
     background: #1f2937;
     color: #f9faf8;
+    text-indent: 125px;
     padding-right: 5em;
 }
 
@@ -51,6 +51,7 @@ ul {
     font-weight: bolder;
     display: flex;
     align-items: center;  
+    text-indent: 125px;
 }
 
 
@@ -65,6 +66,7 @@ ul {
     color: #f9faf8;
     display: flex;
     flex-direction: column;
+    text-indent: 125px; /* not sure why text indent here also indents the subtext below */
 }
 
 
@@ -82,8 +84,7 @@ ul {
 
 .information {
   background-color: #f9faf8;
-  color: #1f2937;
-  padding: 5em;
+  color: #1f2937;  
 
 }
 
@@ -91,20 +92,39 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
 }
 
 
 .infomaster {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5em;
+    align-items: center;   
+    justify-content: space-evenly;
+    text-indent: 0%;
+    text-align: center;    
+}
+
+.image {
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.text {
+    max-width: 150px;
+    word-wrap: normal;
 }
 
 .infopic {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
+    flex-direction: column; 
+    gap: 8px;
+    padding: 12px;
 }
 
 
@@ -112,20 +132,33 @@ ul {
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: larger;
+    text-indent: 125px;
+    text-align: center;
     
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    padding: 5em;
+    text-indent: 125px;
+    word-wrap: normal;
 }
 
-
-.banner {
-    background-color: white;
-    /*need text in a blue box */
+.action {
+    background-color: #f9faf8;
     display: flex;
+    flex-direction: row;
+}
+.banner {
+    background-color: #3882f6;
+    /*need text in a blue box */
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 250px;
+  
 }
 
 
