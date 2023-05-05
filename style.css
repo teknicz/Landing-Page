@@ -18,6 +18,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 22px; /* added to give a little breathing room between the links */
 }
 
 
@@ -60,6 +61,9 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     padding-right: 8em;
+    
+    
+    
 }
 
 .topcontent {
@@ -89,8 +93,12 @@ ul {
   color: #1f2937;  
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  /* having trouble squishing the blue boxes together */
+  padding-bottom: 2em; 
+  padding-left: 12em;
+  padding-right: 12em;
 
 }
 
@@ -105,7 +113,7 @@ ul {
 .infomaster {
     display: flex;  
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-indent: 0%;
     text-align: center;
