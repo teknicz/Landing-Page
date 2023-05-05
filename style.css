@@ -22,15 +22,15 @@ ul {
 }
 
 
-.signup {
-    padding-left: 0em; /* need to move buttons over without stretching them */
+.signup {    
     background: #3882f6;
     color: #f9faf8;
-    box-shadow: 2px 4px 16px #0b0da3da; /*don't like the button shadow color */
+    border: #3882f6;   
     border-radius: 6px;
-    max-width: 64px;
-    max-height: 48px;
+    max-width: 100px;
+    max-height: 100px;
     text-align: center;
+    font-weight: 800;
 }
 
 
@@ -45,14 +45,14 @@ ul {
 }
 
 
-.header {
+.headerlogo {
     background: #1f2937;
     color: #f9faf8;
     font-size: 24px;
     font-weight: bolder;
     display: flex;
     align-items: center;  
-    text-indent: 125px;
+    padding-left: 7em;
 }
 
 
@@ -60,19 +60,25 @@ ul {
     background: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
-    padding-right: 8em;
-    
-    
+    padding-right: 2em;   
     
 }
 
-.topcontent {
+.headeralign {
+    background: #1f2937;
+    display: flex;
+    padding-bottom: 5em;
+    padding-right: 14em;
+    padding-left: 10em;
+    padding-top: 3em;
+
+}
+
+.headercontent {
     background: #1f2937;
     color: #f9faf8;
     display: flex;
-    flex-direction: column;
-    text-indent: 125px; /* not sure why text indent here also indents the subtext below */
-    
+    flex-direction: column;       
 }
 
 
@@ -80,13 +86,32 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    
+    
 }
 
 .herosub {
     font-size: 18px;
     color: #e5e7eb;
+    padding-right: 10em;    
+    
 }
 
+
+.placeholder {
+    border: 2px solid grey;
+    background-color: grey;
+    color: white;    
+    border-radius: 0px;
+    width: 700px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+       
+    display: flex;
+}
 
 .information {
     background-color: #f9faf8;
@@ -95,9 +120,6 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
- 
- 
-
 }
 
 .informationhero {
@@ -105,9 +127,7 @@ ul {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    text-indent: 0%;
-    
-   
+    text-indent: 0%;   
 }
 
 
@@ -142,8 +162,7 @@ ul {
     justify-content: center;   
     flex-direction: column; 
     gap: 10px;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 
@@ -164,9 +183,9 @@ ul {
     font-size: 36px;
     font-style: italic;
     gap: 12px;
-    padding-right: 10em;
+    padding-right: 5em;
     padding-top: 2em;
-    padding-left: 10em;
+    padding-left: 5em;
     
 }
 
@@ -174,8 +193,9 @@ ul {
     font-weight: 900;
     padding-bottom: 2em;
     text-align: right;
-    padding-right: 20em;
+    padding-right: 12em;
     margin: 18px;
+    padding-left: 30em;
 
 }
 
@@ -184,18 +204,21 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .banner {
     background-color: #3882f6;
-    /*need text in a blue box */
+    /*need text in a not oversized blue box */
     border: 2px solid #3882f6;
+    color: #f9faf8;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    width: 1200px;
+    width: 800px;
     height: 250px;
     padding: 5em;
+    text-indent: 5em;
   
 }
 
@@ -205,52 +228,15 @@ ul {
 }
 
 .signup2 {
-    padding-left: 0em; /* need to move buttons over without stretching them */
-    background:  #3882f6; 
-    color:  #f9faf8;
-    box-shadow: 2px 4px 16px #0b0da3da; /*don't like the button shadow color */
+    background: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8;
     border-radius: 6px;
-    width: 96px;
-    height: 48px;
+    max-width: 100px;
+    max-height: 100px;
     text-align: center;
     font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
