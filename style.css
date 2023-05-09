@@ -170,9 +170,7 @@ ul {
     padding-left: 8em;
     padding-right: 8em;
     word-wrap: normal;
-    text-indent: 0%;
-    
-    
+    text-indent: 0%;   
 }
 
 .quote {
@@ -181,8 +179,7 @@ ul {
     gap: 12px;
     padding-right: 5em;
     padding-top: 2em;
-    padding-left: 5em;
-    
+    padding-left: 5em;    
 }
 
 .signature {
@@ -192,55 +189,59 @@ ul {
     padding-right: 12em;
     margin: 18px;
     padding-left: 30em;
-
 }
 
 .action {
     background-color: #f9faf8;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: baseline;
     justify-content: center;
     border: 2px solid #3882f6; 
     background-color: #3882f6; 
     color: white;    
     border-radius: 6px;
     width: 825px;
-    height: 200px;         
+    height: 100px;         
     margin-top: 5em;
     margin-left: 18em;
     margin-bottom: 8em;
+    padding-top: 1em;
+
 }
 
 
 .banner {
     background-color: #3882f6;
     color: #f9faf8;
-    font-weight: 900;
-    text-indent: 0%;
-    font-size: large;
-    text-indent: 5em;
+    font-weight: 900;   
+    margin-left: 5em;
+    display: flex;
+    
 }
 
 .bannertext {
     background:  #3882f6; 
     color:  #f9faf8;
-    text-indent: 5em;
+    margin-left: 5em;
+    display: flex;    
 }
 
 .signup2 {
     background: #3882f6;
-    color: #f9faf8;
-    border: #f9faf8;
+    color: #f9faf8;    
     border-color: #f9faf8;
     border-radius: 6px;
-    max-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: 35px;
     text-align: center;
     font-weight: 800;
-    margin-top: 2em;
+    margin-top: -2em;    
     margin-left: 28em;
     display: flex;
+    margin-left: 50em;
+    align-items: center;
+    justify-content: center;    
 }
 
 
